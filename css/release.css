@@ -1,0 +1,562 @@
+/*清楚浏览器默认样式*/
+body {
+    font-size: 12px;
+    line-height: 1.666;
+    color: #666;
+}
+
+body, input {
+    font-family: "verdana";
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, table, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table, th, td, img {
+    border: 0
+}
+
+em, i, th {
+    font-style: normal;
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-size: 100%;
+    font-weight: normal
+}
+
+input, select, button, textarea, table {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%
+}
+
+input {
+    outline: none;
+}
+
+ul, ol {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th, caption {
+    text-align: left
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/*清楚浏览器默认样式*/
+.f-clear:before, .f-clear:after {
+    clear: both;
+    content: ".";
+    font-size: 0;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+.website{
+    width:100%;
+}
+.top{
+    width:100%;
+    height:55px;
+    background-color: #75a749;
+}
+.top1{
+    width:1150px;
+    height:55px;
+    margin:0 auto;
+}
+.top1 .logo{
+    display:block;
+    float:left;
+    margin:0 auto;
+    padding-top: 10px;
+}
+.put {
+    width:755px;
+    height:36px;
+    padding:10px;
+    overflow: hidden;
+    display:block;
+    margin-left: 200px;
+}
+.put .region{
+    width:83px;
+    height:36px;
+    background-color:#fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+.put .arrow{
+    width:0;
+    height:0;
+    border-top:5px solid #666;
+    border-right:5px solid rgba(255,255,0,0);
+    border-bottom:5px solid rgba(255,255,0,0);
+    border-left:5px solid rgba(255,255,0,0);
+    position: absolute;
+    margin-top:-20px;
+    margin-left: 65px;
+    cursor: pointer;
+}
+.put .separate{
+    height: 26px;
+    border-right:2px solid #ccc;
+    position: absolute;
+    margin: 6px 20px;
+}
+.put .text1{
+    width:547px;
+    height:36px;
+    padding:0;
+    float: left;
+    font-size: 20px;
+}
+.put button{
+    width:125px;
+    height:36px;
+    background-color: #5b8239;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+    font-size: 18px;
+    color:#ffffff;
+    font-family: Arial;
+    text-align: center;
+    line-height: 36px;
+    vertical-align:sub;
+    cursor: pointer;
+}
+.put img{
+    vertical-align:sub;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-top:10px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid #fff;
+    display: block;
+    position: absolute;
+    margin:27px 85px;
+}
+.register a{
+    color: #fff;
+    display: inline-block;
+    padding: 6px;
+}
+.register{
+    float: right;
+    margin-top:-48px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color:#ffffff;
+}
+.middle{
+    width: 100%;
+}
+.middle1{
+    width:1150px;
+    margin:0 auto;
+}
+.box h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    padding:20px;
+}
+.box{
+    padding:10px 0;
+}
+.head th{
+    font-size: 16px;
+}
+.body .mode{
+    padding:12px 10px;
+    font-size: 14px;
+}
+.thing{
+    width: 68px;
+    height:30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin:5px 5px;
+    cursor: pointer;
+}
+.style{
+    width: 68px;
+    height:30px;
+    border: 1px solid #75a749;
+    background: url(60.png) no-repeat;
+    background-position:53px 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.body .star{
+    color: red;
+}
+.space .one{
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+.space label{
+    margin-right: 15px;
+    font-size: 14px;
+}
+.body .status{
+    padding:5px 10px 5px 38px;
+    font-size: 14px;
+}
+.head1 th{
+    padding-top: 13px;
+}
+.head1 th{
+    font-size: 16px;
+}
+.body .area{
+    width:230px;
+    height:30px;
+    color: #CCCCCC;
+    text-indent: 1em;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.body .type{
+    width:100px;
+    height:30px;
+    color: #CCCCCC;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+}
+.inner{
+     position: absolute;
+     top:12px;
+     left:85px;
+ }
+.inner-1{
+    position: absolute;
+    top:12px;
+    left:193px;
+}
+.inner-2{
+    position: absolute;
+    top:12px;
+    left:302px;
+}
+.inner-3{
+    position: absolute;
+    top:12px;
+    left:412px;
+}
+.body .mode1{
+    padding:12px 10px 12px 38px;
+    font-size: 14px;
+}
+.body .floor{
+    width:100px;
+    height:30px;
+    color: #CCCCCC;
+    text-align: center;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    position: relative;
+}
+.outer{
+    position: absolute;
+    top:13px;
+    left:7px;
+}
+.outer-1{
+    position: absolute;
+    top:13px;
+    left:85px;
+}
+.outer-2{
+    position: absolute;
+    top:13px;
+    left:116px;
+}
+.outer-3{
+    position: absolute;
+    top:13px;
+    left:192px;
+}
+.direction{
+    width:60px;
+    height:30px;
+    display: inline-block;
+    color: #444444;
+    text-indent: 1em;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    text-align: left;
+    line-height: 30px;
+    position: relative;
+    cursor:pointer ;
+}
+.bearing{
+    width:60px;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    z-index: 1;
+    position: absolute;
+    top:38px;
+}
+.bearing span{
+    display:block;
+    text-align: center;
+    cursor:pointer ;
+}
+.body td{
+    position: relative;
+}
+.body .triangle{
+    width: 0;
+    height: 0;
+    border-top: 5px solid #444444;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top:-5px;
+    left:-41px;
+}
+.cut{
+    width:80px;
+    height:30px;
+    color: #444444;
+    text-indent: 1em;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+    position: relative;
+    cursor:pointer ;
+}
+.fitment{
+    width:80px;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    z-index: 1;
+    position: absolute;
+    top:38px;
+    left:66px;
+}
+.fitment span{
+    display:block;
+    text-align: center;
+    cursor:pointer ;
+}
+.body .triangle1{
+    width: 0;
+    height: 0;
+    border-top: 5px solid #444444;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top:22px;
+    left:128px;
+}
+.body .cash{
+    width:100px;
+    height:30px;
+    color: #444444;
+    text-indent: 1em;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.cash-l{
+    margin-left: 10px;
+    display: inline-block;
+    width:100px;
+    height:32px;
+    border:1px solid #CCCCCC;
+    float: left;
+    border-radius: 3px;
+    line-height: 32px;
+    text-align: left;
+    text-indent: 1em;
+    cursor:pointer ;
+}
+.deposit{
+    width:100px;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    z-index: 1;
+    position: absolute;
+    top:38px;
+    left:114px;
+
+}
+.deposit span{
+    display:block;
+    text-align: center;
+    cursor:pointer ;
+}
+.month{
+    position: absolute;
+    top:13px;
+    left:68px;
+}
+.body .triangle2{
+    width: 0;
+    height: 0;
+    border-top: 5px solid #444444;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top:21px;
+    left:195px;
+}
+.body .title{
+    width:430px;
+    height:30px;
+    color: #CCCCCC;
+    text-indent: 1em;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.upload{
+    margin-left: 103px;
+    position: relative;
+}
+.button{
+    width:100px;
+    height:30px;
+    background-color: #70ad46;
+    border: 0;
+    color: #ffffff;
+    font-family: "微软雅黑";
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.file{
+    width:100px;
+    height:30px;
+    opacity: 0;
+    position: absolute;
+    top:15px;
+    left:-1px;
+}
+.upload p{
+    color: #CCCCCC;
+    padding-top:5px;
+}
+.case{
+    width:485px;
+    height:180px;
+    border:1px solid #CCCCCC;
+    border-radius: 5px;
+}
+.case img{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    margin: 0 5px;
+}
+.body .mode2{
+    padding:12px 13px 12px 22px;
+    font-size: 14px;
+}
+.body .contact{
+    width:140px;
+    height:30px;
+    color: #CCCCCC;
+    text-indent: 1em;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.body .phone{
+    width:200px;
+    height:30px;
+    color: #CCCCCC;
+    text-indent: 1em;
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.release{
+    margin-left: 20px;
+    padding-bottom:20px;
+}
+.button1{
+    width:200px;
+    height:30px;
+    background-color: #70ad46;
+    border: 0;
+    color: #ffffff;
+    font-family: "微软雅黑";
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bottom{
+    width:100%;
+    background-color:#242623;
+}
+.bottom1{
+    width:1150px;
+    height:262px;
+    margin:0 auto;
+}
+.weChat{
+    float: right;
+    margin-top: 35px;
+}
+.weChat li{
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+.details{
+    padding:30px 0;
+    font-size: 16px;
+    font-family:Arial;
+}
+.line{
+    border:1px solid #444;
+    width:940px;
+    margin-top: 20px;
+}
+.licence{
+    font-size: 16px;
+    font-family:Arial;
+    margin:30px 0;
+}
+
+

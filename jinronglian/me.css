@@ -1,0 +1,207 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif; /*移动端默认的字体*/
+    background: #f0eff5;
+}
+.box{
+    min-width: 300px;
+    max-width: 768px;
+    margin: 0 auto;
+
+}
+.box_nav{
+    width: 100%;
+    height:4rem;
+    background: #0894ec;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.box_logo{
+    min-width: 300px;
+    max-width: 768px;
+    height:4rem;
+    background: rgba(201,21,35,0);
+    margin:0 auto;
+    position: relative;
+}
+.box_img img{
+    width:20%;
+    height:3rem;
+    position: absolute;
+    top:6px;
+    left:5px;
+    z-index: 999;
+}
+form{
+    width:70%;
+    height:100%;
+    display: inline-block;
+    margin-left: 23%;
+}
+.search{
+    width:60%;
+    height:2.5rem;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+.but{
+    width:30%;
+    height:2.5rem;
+    background: #e88c0d;
+    border-radius: 5px;
+    border: 0;
+    color:#fff;
+    font-size: 14px;
+}
+.me{
+    width:40px;
+    height:40px;
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: center;
+    line-height: 4rem;
+    color:#fff;
+    font-size: 15px;
+}
+.means{
+    width:90%;
+    height:18rem;
+    background: #fff;
+    border-radius: 5px;
+    margin: 6rem auto;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.means .tu{
+    width:100%;
+    position: absolute;
+    top:35%;
+    left:10%;
+}
+.means .tu img{
+    width:5rem;
+    height:5rem;
+}
+.means ul{
+    width: 71%;
+    height:100%;
+    padding-top: 4rem;
+    margin-left: 38%;
+    position: absolute;
+    top:0;
+    left:0;
+    float: left;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.card{
+    width:2.5rem;
+    height:2.5rem;
+    background: #bebdc3;
+    display: inline-block;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+.phone{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.arrow{
+    width:10%;
+    height:5rem;
+    font-size: 4rem;
+    position: absolute;
+    top:32%;
+    right: -0.5rem;
+}
+.details{
+    width:90%;
+    height:25rem;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.details .photo{
+    width:20%;
+    float: left;
+}
+.details img{
+    width:4rem;
+    height:4rem;
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+}
+.details ul{
+    width:100%;
+    height:3rem;
+}
+.details li{
+    width:75%;
+    height:3rem;
+    font-size: 2rem;
+    border-bottom:2px solid #f0eff5;
+    line-height:0 ;
+    margin-top: 3.2rem;
+    float: right;
+}
+.arrow_1{
+    width:10%;
+    height:5rem;
+    font-size: 4rem;
+    float: right;
+}
+.about{
+    width:90%;
+    height:12.5rem;
+    background: #fff;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+.about .photo{
+    width:20%;
+    float: left;
+}
+.about img{
+    width:4rem;
+    height:4rem;
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+}
+.about ul{
+    width:100%;
+    height:3rem;
+}
+.about li{
+    width:75%;
+    height:3rem;
+    font-size: 2rem;
+    border-bottom:2px solid #f0eff5;
+    line-height:0 ;
+    margin-top: 3.2rem;
+    float: right;
+}
+.arrow_1{
+    width:10%;
+    height:5rem;
+    font-size: 4rem;
+    float: right;
+}

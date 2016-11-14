@@ -1,0 +1,304 @@
+/*清楚浏览器默认样式*/
+body {
+    font-size: 12px;
+    line-height: 1.666;
+    color: #666;
+}
+
+body, input {
+    font-family: "verdana";
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, table, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table, th, td, img {
+    border: 0
+}
+
+em, i, th {
+    font-style: normal;
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-size: 100%;
+    font-weight: normal
+}
+
+input, select, button, textarea, table {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%
+}
+
+input {
+    outline: none;
+}
+
+ul, ol {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th, caption {
+    text-align: left
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/*清楚浏览器默认样式*/
+.f-clear:before, .f-clear:after {
+    clear: both;
+    content: ".";
+    font-size: 0;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+.scene{
+    width:100%;
+    height:655px;
+    background:url(51.jpg)top center no-repeat;
+}
+.scene1{
+    width: 1150px;
+    margin:0 auto;
+}
+.logo{
+    padding-top:43px;
+}
+.logo a{
+    display: block;
+    float: left;
+}
+.logo .line{
+    border-left:1px solid #bbbbbb;
+    border-top:none;
+    border-right:none;
+    border-bottom:none;
+    height:50px;
+    width:1px;
+    float: left;
+    margin: -5px 20px;
+}
+.logo .login{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.box{
+    width:510px;
+    height:500px;
+    background-color: #ffffff;
+    margin:55px auto;
+    border-radius: 5px;
+}
+.box h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    line-height: 65px;
+    margin-left: 60px;
+}
+.box{
+    padding-right: 70px;
+}
+.user{
+    font-size: 16px;
+    padding:10px;
+    float: right;
+    position: relative;
+}
+.user img{
+    position: absolute;
+    top:18px;
+    left:320px;
+}
+ span{
+    color: #ff0202;
+}
+ input{
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    width: 250px;
+    height:30px;
+}
+.entry{
+    font-size: 16px;
+    padding:10px;
+    float: right;
+    position: relative;
+}
+.entry img{
+    position: absolute;
+    top:17px;
+    left:351px;
+}
+.pw{
+    text-indent: 0.8em;
+}
+.confirm{
+    text-indent: 0.8em;
+}
+.yx{
+    text-indent: 0.8em;
+}
+.dh{
+    text-indent: 0.8em;
+}
+.mail{
+    font-size: 16px;
+    padding:10px;
+    float: right;
+    position: relative;
+}
+.mail img{
+    position: absolute;
+    top:21px;
+    left:300px;
+}
+.phone{
+    font-size: 16px;
+    padding:10px;
+    float: right;
+    position: relative;
+}
+.phone img{
+    position: absolute;
+    top:18px;
+    left:321px;
+}
+ .verify{
+    font-size: 16px;
+    padding:10px;
+    float: right;
+}
+.verify .frame{
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    width: 115px;
+    height:30px;
+}
+.verify .code{
+    border:1px solid #CCCCCC;
+    border-radius: 3px;
+    width: 75px;
+    height:33px;
+    background-color: #b0b0b0;
+    color: #ffffff;
+}
+ .agree{
+    float: right;
+}
+.agree .thing{
+    width:0;
+    height:0;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.agree span{
+    color: #70ad46;
+    margin-right: 32px;
+}
+.agree .enroll{
+    color: #70ad46;
+}
+ li{
+    padding:10px;
+}
+.but{
+    float: right;
+    background-color:#70ad46 ;
+    height:35px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.mask{                                 /*遮罩层*/
+    background-color: #0B1013;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.pop{
+    width:310px;
+    height:200px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top:210px;
+    left:530px;
+}
+.pop .pop-x{
+    font-size: 30px;
+    color:#666666;
+    float: right;
+    margin-top: -6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pop .pop-s{
+    font-size: 24px;
+    color:#242623;
+    margin-left:48px; ;
+    line-height: 130px;
+
+}
+.pop .pop-s img{
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.pop .pop-m{
+    text-align: center;
+    display: block;
+}
+.bottom{
+    width:100%;
+    background-color:#242623;
+}
+.bottom1{
+    width:1150px;
+    height:262px;
+    margin:0 auto;
+}
+.weChat{
+    float: right;
+    margin-top: 35px;
+}
+.weChat li{
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+.details{
+    padding:30px 0;
+    font-size: 16px;
+    font-family:Arial;
+}
+.line{
+    border:1px solid #444;
+    width:940px;
+    margin-top: 20px;
+}
+.licence{
+    font-size: 16px;
+    font-family:Arial;
+    margin:30px 0;
+}

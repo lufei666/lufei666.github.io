@@ -1,0 +1,560 @@
+/*清楚浏览器默认样式*/
+body {
+    font-size: 12px;
+    line-height: 1.666;
+    color: #666;
+}
+
+body, input {
+    font-family: "verdana";
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, table, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table, th, td, img {
+    border: 0
+}
+
+em, i, th {
+    font-style: normal;
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-size: 100%;
+    font-weight: normal
+}
+
+input, select, button, textarea, table {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%
+}
+
+input {
+    outline: none;
+}
+
+ul, ol {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th, caption {
+    text-align: left
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/*清楚浏览器默认样式*/
+.f-clear:before, .f-clear:after {
+    clear: both;
+    content: ".";
+    font-size: 0;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+.website{
+    width:100%;
+}
+.top{
+    width:100%;
+    height:55px;
+    background-color: #75a749;
+}
+.top1{
+    width:1150px;
+    height:55px;
+    margin:0 auto;
+}
+.top1 .logo{
+    display:block;
+    float:left;
+    margin:0 auto;
+    padding-top: 10px;
+}
+.put {
+    width:755px;
+    height:36px;
+    margin-left: 222px;
+    padding:10px;
+    overflow: hidden;
+    position: relative;
+}
+.put #region{
+    width:83px;
+    height:36px;
+    background-color:#fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+#other{
+    width:80px;
+    background-color: #eb5f00;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+
+}
+#other p {
+    text-align: center;
+    font-size: 20px;
+    padding:5px;
+}
+.put .arrow{
+    width:0;
+    height:0;
+    border-top:5px solid #666;
+    border-right:5px solid rgba(255,255,0,0);
+    border-bottom:5px solid rgba(255,255,0,0);
+    border-left:5px solid rgba(255,255,0,0);
+    position: absolute;
+    top:27px;
+    left: 75px;
+    cursor: pointer;
+}
+.put .separate{
+    height: 26px;
+    border-right:2px solid #ccc;
+    position: absolute;
+    top:15px;
+    left:91px;
+}
+.put .text1{
+    width:547px;
+    height:36px;
+    padding:0;
+    float: left;
+    font-size: 20px;
+    text-indent: 1em;
+}
+.put button{
+    width:125px;
+    height:36px;
+    background-color: #5b8239;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+    font-size: 18px;
+    color:#ffffff;
+    font-family: Arial;
+    text-align: center;
+    line-height: 36px;
+    vertical-align:sub;
+    cursor: pointer;
+}
+.put img{
+    vertical-align:sub;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-top:5px solid #000;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid transparent;
+    display: block;
+    position: absolute;
+    top:10px;
+    left:135px;
+}
+.triangle-1{
+    width:0;
+    height:0;
+    border-top:5px solid #000;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid transparent;
+    display: block;
+    position: absolute;
+    top:10px;
+    left:220px;
+}
+.register{
+    float: right;
+    margin-top:-48px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color:#ffffff;
+}
+.register a{
+    color: #fff;
+    display: inline-block;
+    padding: 6px;
+}
+.frame{
+    width:100%;
+}
+.frame1 {
+    width: 1150px;
+    height:123px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:20px auto;
+}
+.bg{
+    display: block;
+    clear: both;
+    position: relative;
+}
+.bg .head{
+    float: left;
+    height:30px;
+    line-height: 30px;
+    width:60px;
+    text-align: right;
+    font-size: 14px;
+}
+.content .style{
+    background-color: #f69a85;
+    color:#ffffff;
+    border-radius: 5px;
+}
+.bg .content{
+    padding-left:70px;
+}
+.bg .content a{
+    float: left;
+    height:30px;
+    line-height: 30px;
+    margin:0 16px 0 4px;
+    font-size: 14px;
+}
+.bg .content1{
+    padding-left:70px;
+}
+.bg .content1 a{
+    float: left;
+    height:30px;
+    line-height: 30px;
+    margin:0 16px 0 4px;
+    font-size: 14px;
+}
+.content1 .style{
+    background-color: #f69a85;
+    color:#ffffff;
+    border-radius: 5px;
+}
+.content .type{
+    width:80px;
+    line-height:20px;
+    display: inline-block;
+    border:1px solid #cbcbcb;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.content .type-1{
+    width:80px;
+    line-height:20px;
+    display: inline-block;
+    border:1px solid #cbcbcb;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.layout{
+    width:82px;
+    background-color: #fff;
+    color: #666;
+    display: inline-block;
+    position: absolute;
+    top:23px;
+    left:70px;
+    z-index: 1;
+    cursor: pointer;
+}
+.layout span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.form{
+    width:82px;
+    background-color: #fff;
+    color: #666666;
+    display: inline-block;
+    position: absolute;
+    top:23px;
+    left:156px;
+    z-index: 1;
+    cursor: pointer;
+}
+.form span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.type .triangle{
+    width:0;
+    height:0;
+    border-top:5px solid  #000000;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid transparent;
+    position: absolute;
+    top:8px;
+    left:58px;
+}
+.content .choice{
+    font-size: 14px;
+    vertical-align:bottom;
+    padding:0 3px;
+}
+.title{
+    width: 100%;
+}
+.title1{
+    width:1150px;
+    height:38px;
+    border:1px solid #d9d9d9;
+    position: relative;
+    margin:0 auto;
+}
+.title .left li{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    line-height: 38px;
+    padding:0 20px;
+}
+.title .all{
+    background:#70ad46;
+}
+.title .left .all a{
+     color:#ffffff;
+}
+.title .right li{
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    height:38px;
+    line-height: 38px;
+    padding:0 20px;
+}
+.title .right li a{
+    color:#70ad46;
+}
+.triangle-one{
+    width:0;
+    height:0;
+    border-top:5px solid  transparent;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid #999;
+    position: absolute;
+    top:8px;
+    left:1135px;
+}
+.triangle-two{
+    width:0;
+    height:0;
+    border-top:5px solid  #999;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid transparent;
+    position: absolute;
+    top:20px;
+    left:1135px;
+}
+.box{
+    width:100%;
+    background: #ffffff;
+    position: relative;
+}
+.box1{
+    width:1150px;
+    height:180px;
+    padding:20px;
+    border-bottom:1px solid #eeeeee;
+    margin:0 auto;
+}
+.box1 .img{
+    float: left;
+    padding:10px 20px;
+    width: 218px;
+    height:160px;
+}
+.box1 dd{
+    display:block;
+    position: relative;
+}
+.box1 dd .address{
+    display: inline-block;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    margin:3px;
+}
+.box1 dd .address span{
+    font-weight: normal;
+    color:#eb5f00;
+}
+.box1 dd .people{
+    width:21px;
+    height:21px;
+    background: url(18.png) ;
+    display: inline-block;
+    vertical-align: -2px;
+}
+.box1 dd .honest {
+    width:21px;
+    height:21px;
+    background: url(19.png) ;
+    display: inline-block;
+    vertical-align: -2px;
+}
+.box1 dd .honest1 {
+    width:21px;
+    height:21px;
+    background: url(19.png) ;
+    display: inline-block;
+    vertical-align: -2px;
+}
+.box1 dd .pattern {
+    display: inline-block;
+    font-size: 16px;
+    padding:10px 2px;
+}
+.box1 dd .location{
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 18px;
+}
+.box1 dd .map{
+    width:21px;
+    height:21px;
+    background-image: url(36.png) ;
+    position: absolute;
+    left:254px;
+    top:3px;
+}
+.box1 dd .decorate{
+    display: inline-block;
+    font-size: 14px;
+    padding:2px 20px;
+    margin: 20px 15px 20px 2px ;
+    border:1px solid #ffa422;
+    color:#ffa422;
+}
+.box1 dd .decorate1{
+    display: inline-block;
+    font-size: 14px;
+    padding:2px 20px;
+    margin: 20px 0;
+    border:1px solid #88b9b9;
+    color:#88b9b9;
+}
+.box1 dd .subway {
+    display: inline-block;
+    font-size: 14px;
+    padding:2px 20px;
+    margin: 20px 0;
+    border:1px solid #75a749;
+    color:#75a749;
+}
+.box1 dd .subway1 {
+    display: inline-block;
+    font-size: 14px;
+    padding:2px 20px;
+    margin: 20px 0;
+    border:1px solid #de958f;
+    color:#de958f;
+}
+.box1 .money {
+    width:170px;
+    font-size: 16px;
+    color:#eb5f00;
+    float: right;
+    position: absolute;
+    left:1000px;
+    top:-129px;
+}
+.box1 .month{
+    font-size: 30px;
+    color:#eb5f00;
+}
+.box1 .date{
+    font-size: 16px;
+    color:#999999;
+    font-weight: 500;
+    float: right;
+}
+.page{
+    margin:50px;
+    text-align: center;
+}
+.page a {
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #cbcbcb;
+    line-height: 30px;
+    margin:0 5px;
+    padding:0 12px;
+}
+.page .page-checked{
+    border: hidden;
+    color: #ff0202;
+}
+.bottom{
+    width:100%;
+    background-color:#242623;
+}
+.bottom1{
+    width:1150px;
+    height:262px;
+    margin:0 auto;
+}
+.weChat{
+    float: right;
+    margin-top: 35px;
+}
+.weChat li{
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+.details{
+    padding:30px 0;
+    font-size: 16px;
+    font-family:Arial;
+}
+.line{
+    border:1px solid #444;
+    width:940px;
+    margin-top: 20px;
+}
+.licence{
+    font-size: 16px;
+    font-family:Arial;
+    margin:30px 0;
+}
+
+
+
+
+
+

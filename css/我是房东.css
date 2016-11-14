@@ -1,0 +1,314 @@
+ /*清楚浏览器默认样式*/
+body {
+    font-size: 12px;
+    line-height: 1.666;
+    color: #666;
+}
+
+body, input {
+    font-family: "verdana";
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, table, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table, th, td, img {
+    border: 0
+}
+
+em, i, th {
+    font-style: normal;
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-size: 100%;
+    font-weight: normal
+}
+
+input, select, button, textarea, table {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%
+}
+
+input {
+    outline: none;
+}
+
+ul, ol {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th, caption {
+    text-align: left
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/*清楚浏览器默认样式*/
+.f-clear:before, .f-clear:after {
+    clear: both;
+    content: ".";
+    font-size: 0;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+.website{
+    width:100%;
+}
+.top{
+    width:100%;
+    height:646px;
+    background: url(1.jpg) no-repeat center;
+}
+.top1{
+    width:1150px;
+    height:646px;
+    margin:0 auto;
+}
+.top1 a{
+    display:block;
+    float:left;
+    margin-top:43px;
+}
+.top1 ul{
+    float:right;
+}
+.top1 ul li{
+    float:left;
+}
+.top1 ul a{
+    font-size: 16px;
+    font-family:"微软雅黑";
+    color:#ffffff;
+    display:block;
+    padding:5px;
+}
+.title{
+    padding:124px 252px;
+}
+.block{
+    width:886px;
+    height:150px;
+    background:#000000;
+    opacity: 0.6;
+    border-radius:20px;
+    margin:-77px auto;
+    position: relative;
+}
+.block ul{
+    float:left;
+    margin-left:38px;
+}
+.block ul a {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    font-weight:bold;
+    filter: Alpha(Opacity=50);
+    opacity: 0.6;
+    margin:5px 20px;
+}
+.block1 {
+    width: 521px;
+    height: 50px;
+    background: #70ad46;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -260px;
+    font-size: 20px;
+    font-family:Arial;
+    color:#ffffff;
+    font-weight: bold;
+    cursor:pointer;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-top:10px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid #70ad46;
+    display: block;
+    position: absolute;
+    margin:30px 200px;
+}
+.keyword{
+    margin-left: 185px;
+}
+.keyword p{
+    float: left;
+    margin:39px 6px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color:#ffffff;
+}
+.middle{
+    width:100%;
+    height:120px;
+    background-color:#eeeeee;
+}
+.middle1{
+    width:1150px;
+    margin:0 auto;
+    font-family: Arial;
+}
+.middle1 dl{
+    float: left;
+    padding:20px 0;
+}
+.middle1 dt{
+    font-size: 16px;
+    padding:10px 0;
+    font-weight: bold;
+}
+.middle1 .z{
+    float: right;
+}
+.middle1 .s{
+     margin-left: 155px;
+ }
+.middle1 .y{
+    margin-left: 160px;
+}
+.house{
+    width:100%;
+    background-color:#ffffff;
+}
+.house1{
+    width:1150px;
+    height:480px;
+    margin:0 auto;
+}
+.topic{
+    font-size:30px;
+    font-family:"微软雅黑";
+    color:#87b867;
+    text-align: center;
+    padding: 20px 0;
+}
+.house1 span{
+    color:#000000;
+}
+.house1 dd{
+    float: right;
+    margin-top: -46px;
+    color:#87b867;
+}
+.border{
+    width:275px;
+    height:305px;
+    border:2px solid #e1e2e3;
+    float: left;
+    margin:0 4px;
+}
+.border img{
+    padding:10px;
+}
+.border .aa{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial;
+    display: inline-block;
+    padding:0 10px;
+}
+.border .bb{
+    font-size: 16px;
+    letter-spacing:2px;         /*字间距*/
+    padding:0 10px;
+    font-family:Arial;
+}
+.border .cc{
+    font-size: 24px;
+    color:#87b867;
+    margin-top: -6px;
+    text-indent: 1em;
+}
+.border li{
+    float: left;
+    font-size: 16px;
+    font-family:Arial;
+}
+.left{
+    display: block;
+    float: left;
+    margin-top: -252px;
+    margin-left: 52px;
+}
+.right{
+    display: block;
+    float: right;
+    margin-top: -252px;
+    margin-right: 52px;
+}
+.bottom{
+    width:100%;
+    background-color:#242623;
+}
+.bottom1{
+    width:1150px;
+    height:262px;
+    margin:0 auto;
+}
+.weChat{
+    float: right;
+    margin-top: 35px;
+}
+.weChat li{
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+.details{
+    padding:30px 0;
+    font-size: 16px;
+    font-family:Arial;
+}
+.line{
+    border:1px solid #444;
+    width:940px;
+    margin-top: 20px;
+}
+.licence{
+    font-size: 16px;
+    font-family:Arial;
+    margin:30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="clear.css">
+</head>
+<body>
+ <div class="box">
+     <!---头部---->
+     <header class="box_nav">
+     <div class="box_logo">
+         <a href="#" class="box_img"><img src="img/1.png" alt=""></a>
+     <form action="">
+         <input type="search" class="search">
+         <input type="button" class="but" value="求需求">
+     </form>
+         <a href="" class="me">我的</a>
+     </div>
+     </header>
+     <!---导航---->
+     <nav class="middle">
+         <h2>抢单中心</h2>
+         <ul class="middle_img">
+             <li><img src="img/2.png" alt=""><p>信用贷款</p></li>
+             <li><img src="img/3.png" alt=""><p>房屋贷款</p></li>
+             <li><img src="img/4.png" alt=""><p>车辆贷款</p></li>
+             <li><img src="img/5.png" alt=""><p>企业贷款</p></li>
+             <li><img src="img/6.png" alt=""><p>承兑汇票</p></li>
+             <li><img src="img/7.png" alt=""><p>更多</p></li>
+         </ul>
+     </nav>
+     <!---轮播图---->
+     <div class="carousel">
+         <ul>
+             <li class="item"><a href=""><img src="img/11.png" alt=""></a></li>
+             <li class="item"><a href=""><img src="img/8.png" alt=""></a></li>
+             <li class="item"><a href=""><img src="img/9.png" alt=""></a></li>
+             <li class="item"><a href=""><img src="img/11.png" alt=""></a></li>
+             <li class="item"><a href=""><img src="img/8.png" alt=""></a></li>
+         </ul>
+         <ul>
+             <li class="point style"></li>
+             <li class="point"></li>
+             <li class="point"></li>
+         </ul>
+     </div>
+     <!---按钮---->
+     <div class="present">
+         <a href="">
+             <input class="left" type="button" value="找顾问">
+         </a>
+         <a href="">
+             <input class="right" type="button" value="推荐渠道">
+         </a>
+     </div>
+     <!---主体---->
+
+     <div class="main">
+         <div class="main_l">
+         <span class="main_t">推荐业务</span>
+         <a class="main_d" href="">更多>></a>
+         </div>
+         <div class="content">
+         <span>有150多亩土地，贷100万左右</span>
+         <div class="content_t">
+             <a href="">顶</a>
+             <a href="">荐</a>
+         </div>
+         <div class="name">
+             <span>杨鹏兴 16666666666</span>
+             <a href="">2016-08-15</a>
+         </div>
+     </div>
+
+         <div class="content">
+             <span>有150多亩土地，贷100万左右</span>
+             <div class="content_t">
+                 <a href="">顶</a>
+                 <a href="">荐</a>
+             </div>
+             <div class="name">
+                 <span>杨鹏兴 16666666666</span>
+                 <a href="">2016-08-15</a>
+             </div>
+         </div>
+         <div class="content">
+             <span>有150多亩土地，贷100万左右</span>
+             <div class="content_t">
+                 <a href="">顶</a>
+                 <a href="">荐</a>
+             </div>
+             <div class="name">
+                 <span>杨鹏兴 16666666666</span>
+                 <a href="">2016-08-15</a>
+             </div>
+         </div>
+         <div class="content">
+             <span>有150多亩土地，贷100万左右</span>
+             <div class="content_t">
+                 <a href="">顶</a>
+                 <a href="">荐</a>
+             </div>
+             <div class="name">
+                 <span>杨鹏兴 16666666666</span>
+                 <a href="">2016-08-15</a>
+             </div>
+         </div>
+         </div>
+     <!---底部---->
+     <div class="main_l">
+         <span class="main_t">业务渠道</span>
+         <a class="main_d" href="">更多>></a>
+     </div>
+     <ul class="middle_img">
+         <li><img src="img/10.png" alt=""></li>
+         <li><img src="img/10.png" alt=""></li>
+         <li><img src="img/10.png" alt=""></li>
+         <li><img src="img/10.png" alt=""></li>
+         <li><img src="img/10.png" alt=""></li>
+         <li><img src="img/10.png" alt=""></li>
+     </ul>
+     </div>
+
+</body>
+</html>
+
+<script>
+    (function(){
+        var carousel = document.querySelector('.carousel');
+        var width = carousel.offsetWidth;
+        //console.log(width);
+        var ul = document.querySelectorAll('.carousel ul')[0];
+        var lis = document.querySelector('.item');
+        var points = document.querySelectorAll('.point');
+
+        function addTransition (){
+
+            ul.style.transition = 'all .5s ease'
+        }
+        function addTranslateX (x){
+
+            ul.style.transform = 'translateX('+x+'px)'
+        }
+        function removeTransition (){
+
+            ul.style.transition = 'none'
+
+        }
+        var index = 1;
+        var timer = null;
+
+        timer = setInterval(function(){
+            index++;
+
+            addTransition();
+            addTranslateX(-index*width);
+            setPoint();
+        },2000);
+
+        ul.addEventListener('webkitTransitionEnd', function(e){
+            //console.log(e);
+            if(index >= 4){
+                index = 1;
+                removeTransition();
+                addTranslateX(-index*width);
+                setPoint();
+            }else if(index <= 0){
+                index = 3;
+                removeTransition();
+                addTranslateX(-index*width);
+                setPoint();
+            }
+        });
+
+        //小圆点做动画
+        var start = 0;
+        var end = 0;
+        var step = 0;
+        ul.addEventListener('touchstart', function(e){     //addEventListener:用于向指定元素添加事件句柄
+            clearInterval(timer);
+            console.log(e);
+            start = e.touches[0].clientX;              //e.touches[0]:多点触碰时的位置数组
+        });
+
+        ul.addEventListener('touchmove', function(e){
+            e.preventDefault();        //取消事件的默认动作
+            console.log(e);
+            end = e.touches[0].clientX;
+            step = start - end;
+            addTransition();
+            addTranslateX(-index*width-step);
+        });
+
+        ul.addEventListener('touchend', function(e){
+            //console.log(e);
+            if(Math.abs(step) > width/3 && end != 0){
+                if(step > 0){
+                    index++
+                }else{
+                    index--
+                }
+            }
+            addTransition();
+            addTranslateX(-index * width);
+            setPoint();
+
+            clearInterval(timer);
+            timer = setInterval(function(){
+                index++;
+
+                addTransition();
+                addTranslateX(-index * width);
+                setPoint();
+
+            },2000);
+
+            start = 0;
+            end = 0;
+            step = 0;
+
+        },false);
+
+
+        function setPoint(){
+            var pointIndex = index;
+            console.log(pointIndex);
+            for(var i=0; i<points.length; i++){
+                points[i].classList.remove('style');
+            }
+            if(index >= 4 ){
+                pointIndex = 1;
+            }else if(index <= 0){
+                pointIndex = 3;
+            }
+            // console.log(points[pointIndex]);
+            points[pointIndex-1].classList.add('style');
+        }
+
+    })()
+
+
+</script>
